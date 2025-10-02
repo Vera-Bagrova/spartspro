@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./OpenSans-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./OpenSans-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Flex-Variable";
+  font-weight: 400 700;
+  font-display: swap;
+  src: local("Roboto-Flex-Variable"),
+    url(../fonts/Roboto-Flex-Variable.woff2) format("woff2 supports variations"),
+    url(../fonts/Roboto-Flex-Variable.woff2) format("woff2-variations");
+}
