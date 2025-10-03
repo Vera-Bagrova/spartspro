@@ -4,9 +4,9 @@
 
 [Макет в Figma](https://www.figma.com/design/rzc7AEVaSazZByhZ19GEwC/Тестовое-задание?node-id=0-1&p=f&t=IRTewpMzFpNkRajV-0)
 
-<!-- Cтек: JavaScript, CSS, HTML, Webpack. -->
+Cтек: JavaScript, CSS, HTML, Webpack.
 
-<!-- ### Запуск
+### Запуск
 
 Для установки зависимостей и запуска проекта необходимо выполнить команды
 
@@ -19,4 +19,4 @@ npm run dev
 
 ```
 npm run build
-``` -->
+```
