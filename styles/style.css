@@ -28,18 +28,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
-  position: relative;
 }
 
 .header::before {
   content: "";
   display: none;
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  width: calc(100% + 38vi);
   height: 1px;
   background-color: var(--line-color, #d5dfe9);
   top: 78px;
-  left: 0;
+  left: -19vi;
   z-index: 10;
 }
 
