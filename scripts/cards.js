@@ -1,4 +1,4 @@
-export const initialCards = [
+const initialCards = [
   {
     img: "./images/lot_1.png",
     title: "Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570",

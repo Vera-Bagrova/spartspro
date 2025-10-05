@@ -7,13 +7,13 @@ const getTemplate = () => {
 };
 
 // Категории товаров и соответствующие классы
-export const categories = {
+const categories = {
   "in stock": "card__mark_inStock",
   "on request": "card__mark_onRequest",
 };
 
 // Функция создания карточки (принимает в качестве параметров данные карточки, функции обработки её событий)
-export const createCard = (cardData, openPopup) => {
+const createCard = (cardData, openPopup) => {
   const cardElement = getTemplate();
   const cardImage = cardElement.querySelector(".card__image");
   const cardTitle = cardElement.querySelector(".card__title");

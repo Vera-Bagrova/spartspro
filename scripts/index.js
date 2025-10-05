@@ -1,7 +1,3 @@
-import "./pages/index.css";
-import { createCard } from './scripts/card.js'; 
-import { initialCards } from './scripts/cards.js'; 
-
 // DOM узлы
 const header= document.querySelector(".header");
 const menuToggle = document.querySelector(".header__menu-toggle");
@@ -29,12 +25,13 @@ document.addEventListener("click", function (e) {
 
 // Выводим карточки на страницу
 initialCards.forEach((elem) => {
-  const card = createCard(elem, handleClick);
+  const card = createCard(elem);
+  // const card = createCard(elem, handleClick);
 
   cardsContainer.append(card);
 });
 
 // Функция-обработчик события клика по кнопки карточки
-const handleClick = (src, name) => {
-  /** Пока заглушка */
-};
+// const handleClick = (src, name) => {
+//   /** Пока заглушка */
+// };

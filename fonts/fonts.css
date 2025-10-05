@@ -19,6 +19,6 @@
   font-weight: 400 700;
   font-display: swap;
   src: local("Roboto-Flex-Variable"),
-    url(../fonts/Roboto-Flex-Variable.woff2) format("woff2 supports variations"),
-    url(../fonts/Roboto-Flex-Variable.woff2) format("woff2-variations");
+    url(./Roboto-Flex-Variable.woff2) format("woff2 supports variations"),
+    url(./Roboto-Flex-Variable.woff2) format("woff2-variations");
 }
